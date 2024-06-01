@@ -1,4 +1,11 @@
-Step-1: create and initialize in root (native_splash.yaml)
+Step-1: implement library
+
+```yaml
+flutter_native_splash: ^2.4.0
+```
+
+Step-2: create and initialize in root (native_splash.yaml)
+
 ```yaml
 flutter_native_splash:
 
@@ -25,10 +32,10 @@ flutter_native_splash:
     branding: "assets/startup/android_branding.png"
 ```
 
-Step-2: build with terminal
+Step-3: build with terminal
 dart run flutter_native_splash:create --path=native_splash.yaml
 
-Step-3: Attach flutter_native_splash with flutter app:
+Step-4: Attach flutter_native_splash with flutter app:
 
 ```dart
 void main() {
@@ -38,7 +45,8 @@ void main() {
 }
 ```
 
-Step-4: Remove flutter_native_splash from flutter app (Call this from initState of root widget)
+Step-5: Remove flutter_native_splash from flutter app (Call this from initState of root widget)
+
 ```dart
 void _initialization() async {
   log("Native splash pushing...");
