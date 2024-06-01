@@ -1,0 +1,23 @@
+flutter_native_splash:
+
+  # Supports
+  android: true
+  ios: true
+  web: false
+
+  # Background
+  color: "#d4e4ed"
+
+  # Background Image, Logo and Branding
+  background_image: "assets/startup/background.png"
+  image: "assets/startup/logo.png"
+  branding: "assets/startup/branding.png"
+
+  background_image_dark: "assets/startup/background_dark.png"
+  image_dark: "assets/startup/logo_dark.png"
+  branding_dark: "assets/startup/branding_dark.png"
+
+  android_12:
+    color: "#d4e4ed"
+    image: "assets/startup/android_logo.png"
+    branding: "assets/startup/android_branding.png"
